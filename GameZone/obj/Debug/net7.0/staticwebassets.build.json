@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MCeAdwTmkcHhslxq4s9G0/9BBrt8gbiNdZWQ7AEWKHY=",
+  "Hash": "jFBK3+hYaaclXCVRxkiElX0LX49j2u2xZQqwumhcm2U=",
   "Source": "GameZone",
   "BasePath": "_content/GameZone",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\GameZone\\GameZone\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GameZone.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\GameZone\\GameZone\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
       "Identity": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\GameZone\\GameZone\\wwwroot\\css\\site.css",

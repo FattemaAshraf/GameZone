@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\GameZone.bundle.scp.css"
     },
     {
+      "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\GameZone\\GameZone\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
       "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\GameZone\\GameZone\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
