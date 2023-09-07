@@ -1,4 +1,5 @@
 using GameZone.Data;
+using GameZone.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,14 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
    p => p.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+
+//resolved the Services 
+
+builder.Services.AddScoped<IGamesService, GamesService>();
+builder.Services.AddScoped<IDevicesService, DevicesService>();
+builder.Services.AddScoped<ICategoriesService, CategoriesService>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,6 +1,9 @@
-﻿namespace GameZone.Services
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+
+namespace GameZone.Services
 {
-    public interface ICategories
+    public interface ICategoriesService
     {
+        IEnumerable<SelectListItem> GetSelectList();
     }
 }

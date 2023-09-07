@@ -1,6 +1,6 @@
 ﻿namespace GameZone.Services
 {
-    public class Games
+    public class GamesService : IGamesService
     {
     }
 }

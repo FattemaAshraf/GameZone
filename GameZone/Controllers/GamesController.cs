@@ -1,4 +1,5 @@
 ﻿using GameZone.Data;
+using GameZone.Services;
 using GameZone.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,10 +7,17 @@ namespace GameZone.Controllers
 {
     public class GamesController : Controller
     {
-        private readonly ApplicationDbContext _context;
-        public GamesController(ApplicationDbContext context)
+        private readonly ICategoriesService _categoriesService;
+        private readonly IDevicesService _devicesService;
+        private readonly IGamesService _gamesServices;
+
+        public GamesController(ICategoriesService categoriesService,
+            IDevicesService devicesService,
+            IGamesService gamesServices)
         {
-            _context = context;
+            _categoriesService = categoriesService;
+            _devicesService = devicesService;
+            _gamesServices = gamesServices;
         }
         public IActionResult Index()
         {
@@ -21,14 +29,8 @@ namespace GameZone.Controllers
             CreateGameFormViewModel viewModel = new()
             {
                 //initailizing data from context to IEnumable<> Categories
-                Categories = _context.Categories
-                                     .Select(c => new Microsoft.AspNetCore.Mvc.Rendering.SelectListItem { Value = c.Id.ToString(), Text = c.Name })
-                                     .OrderBy(c => c.Text)
-                                     .ToList(),
-                Devices = _context.Devices
-                                     .Select(d => new Microsoft.AspNetCore.Mvc.Rendering.SelectListItem { Value = d.Id.ToString(), Text = d.Name })
-                                     .OrderBy(d => d.Text)
-                                     .ToList()
+                Categories = _categoriesService.GetSelectList(),
+                Devices = _devicesService.GetSelectList()
             };
             return View(viewModel);
         }
@@ -40,11 +42,14 @@ namespace GameZone.Controllers
             //server side validation
             if (!ModelState.IsValid) 
             {
-                return View();
+                model.Categories = _categoriesService.GetSelectList();
+                model.Devices = _devicesService.GetSelectList();
+                return View(model);
             }
 
             //save game to database
             //save cover to server
+            
 
             return RedirectToAction(nameof(Index));
         }
