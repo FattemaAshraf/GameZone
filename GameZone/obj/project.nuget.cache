@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1r4rxsJH9HsQU78pLW3EQ2Bryv2byV6xLsd1rOmX5N0uV6RW7nIdZCln2pA7n0bpw8gjgwLfz2CVLYOP8HIptw==",
+  "dgSpecHash": "bLTwNebqZ7zp3z7pPNpotHr6TiZP8TQ+8EP7xujthXReqTCwGoNtGoDgzGGwtC3v+WA9QRyyPIS4GlKEedFAnA==",
   "success": true,
-  "projectFilePath": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\GameZone\\GameZone\\GameZone.csproj",
+  "projectFilePath": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\GameZone.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

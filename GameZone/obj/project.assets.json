@@ -3598,11 +3598,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\GameZone\\GameZone\\GameZone.csproj",
+      "projectUniqueName": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\GameZone.csproj",
       "projectName": "GameZone",
-      "projectPath": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\GameZone\\GameZone\\GameZone.csproj",
+      "projectPath": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\GameZone.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\GameZone\\GameZone\\obj\\",
+      "outputPath": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
