@@ -1,5 +1,6 @@
 ﻿using GameZone.Data;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace GameZone.Services
 {
@@ -16,6 +17,7 @@ namespace GameZone.Services
             return _context.Categories
                 .Select(C => new SelectListItem { Value = C.Id.ToString(), Text = C.Name })
                  .OrderBy(c => c.Text)
+                 .AsNoTracking()
                  .ToList();
         }
     }

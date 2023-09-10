@@ -37,7 +37,7 @@ namespace GameZone.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken] // for input _RequestVerficationToken to security form before submitted in database from attackers
 
-        public IActionResult Create(CreateGameFormViewModel model)
+        public async Task<IActionResult> Create(CreateGameFormViewModel model)
         {
             //server side validation
             if (!ModelState.IsValid) 
@@ -49,7 +49,8 @@ namespace GameZone.Controllers
 
             //save game to database
             //save cover to server
-            
+            await _gamesServices.Create(model);
+
 
             return RedirectToAction(nameof(Index));
         }
