@@ -42,7 +42,7 @@
             <div class="form-group">
                 <label asp-for="Cover" class="form-label mt-4"></label>
                 <input type="file" class="form-control" asp-for="Cover">
-                <small class="form-text text-muted">Only AllowedExtensions files are allowed with max size.</small>
+                <small class="form-text text-muted">Only @GameZone.Settings.FileSetting.AllowedExtensions files are allowed with max size @(GameZone.Settings.FileSetting.MaxFileSizeInMB)MB.</small>
                 <span asp-validation-for="Cover" class="text-danger d-block"></span>
             </div>
 
