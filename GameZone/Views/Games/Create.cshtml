@@ -41,7 +41,11 @@
             </div>
             <div class="form-group">
                 <label asp-for="Cover" class="form-label mt-4"></label>
-                <input type="file" class="form-control" asp-for="Cover">
+                <input type="file" class="form-control" asp-for="Cover"
+                       data-rule-extension="@GameZone.Settings.FileSetting.AllowedExtensions.Replace(".", string.Empty)"
+                       data-msg-extension="Not allowed extension"
+                       data-rule-filesize="@GameZone.Settings.FileSetting.MaxFileSizeInBytes"
+                       data-msg-filesize="Maximum allowed size is @GameZone.Settings.FileSetting.MaxFileSizeInMB MB">
                 <small class="form-text text-muted">Only @GameZone.Settings.FileSetting.AllowedExtensions files are allowed with max size @(GameZone.Settings.FileSetting.MaxFileSizeInMB)MB.</small>
                 <span asp-validation-for="Cover" class="text-danger d-block"></span>
             </div>
@@ -52,3 +56,10 @@
 
 
  </form>
+
+ //client side validation
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/filesize-validator.js" asp-append-version="true"></script>
+    <script src="~/js/game-form.js" asp-append-version="true"></script>
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zXGk547QS4hC4HkXffAJgIyuOuF7Qa06KrRe5Nb1/qw=",
+  "Hash": "vVB8X4+Y4FM3Hj9/4Sn4GyNT6x89ONH5qGyboaDNt54=",
   "Source": "GameZone",
   "BasePath": "_content/GameZone",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GameZone.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\0e835518-b9a5-4b5a-ad53-b5f8f81b6f49.jpg",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "assets/images/games/0e835518-b9a5-4b5a-ad53-b5f8f81b6f49.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\games\\0e835518-b9a5-4b5a-ad53-b5f8f81b6f49.jpg"
     },
     {
       "Identity": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\bootstrap-icons\\font\\bootstrap-icons.css",
