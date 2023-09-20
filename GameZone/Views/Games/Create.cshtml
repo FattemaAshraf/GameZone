@@ -52,12 +52,14 @@
 
             <button type="submit" class="btn btn-light text-black mt-4">Save</button>
         </div>
+        <div class="col-md-6 d-flex justify-content-center pt-4 overflow-hidden">
+            <img class="cover-preview d-none" alt="Cover" />
+        </div>
     </div>
 
 
  </form>
 
- //client side validation
 @section Scripts{
     <partial name="_ValidationScriptsPartial" />
     <script src="~/js/filesize-validator.js" asp-append-version="true"></script>
