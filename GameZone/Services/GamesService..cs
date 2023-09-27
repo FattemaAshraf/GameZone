@@ -28,6 +28,16 @@ namespace GameZone.Services
                      .AsNoTracking()
                      .ToList();
         }
+
+        public Game? GetById(int id)
+        {
+            return _context.Games
+                .Include(g => g.Category)
+                .Include(g => g.Device)
+                .ThenInclude(d => d.Device)
+                .AsNoTracking()
+                .SingleOrDefault(g => g.Id == id);
+        }
         public async Task Create(CreateGameFormViewModel model)
         {
             var coverName = $"{Guid.NewGuid()}{Path.GetExtension(model.Cover.FileName)}";
