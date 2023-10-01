@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kyPgWPLpyCFvRhK4MtQmVxRGf5L9KlrpYo07JZSlQRk=",
+  "Hash": "SKnrh9hOy2G/MiEfLYuNQ5sYUqzJONIcuZevVdis+Uo=",
   "Source": "GameZone",
   "BasePath": "_content/GameZone",
   "Mode": "Default",
@@ -321,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\game-form.js"
+    },
+    {
+      "Identity": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\js\\games-index.js",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "js/games-index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\games-index.js"
     },
     {
       "Identity": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\js\\site.js",
@@ -1341,6 +1358,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\select2\\js\\select2.min.js"
+    },
+    {
+      "Identity": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\sweetalert2\\sweetalert2.min.css",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "sweetalert2/sweetalert2.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Identity": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\sweetalert2\\sweetalert2.min.js",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "sweetalert2/sweetalert2.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sweetalert2\\sweetalert2.min.js"
     }
   ]
 }

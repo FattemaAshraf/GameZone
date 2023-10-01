@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\js\\game-form.js"
     },
     {
+      "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\js\\games-index.js",
+      "PackagePath": "staticwebassets\\js\\games-index.js"
+    },
+    {
       "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -307,6 +311,14 @@
     {
       "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\select2\\js\\select2.min.js",
       "PackagePath": "staticwebassets\\select2\\js\\select2.min.js"
+    },
+    {
+      "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\sweetalert2\\sweetalert2.min.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.GameZone.Microsoft.AspNetCore.StaticWebAssets.props",
