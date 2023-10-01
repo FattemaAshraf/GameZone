@@ -66,6 +66,30 @@ namespace GameZone.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+        [HttpGet]
+
+        public IActionResult Edit(int id)
+        {
+            var game = _gamesService.GetById(id);
+
+            if (game is null)
+                return NotFound();
+
+            EditGameFormViewModel viewModel = new()
+            {
+                Id = id,
+                Name = game.Name,
+                Description = game.Description,
+                CategoryId = game.CategoryId,
+                SelectedDevices = game.Device.Select(d => d.DeviceId).ToList(),
+                Categories = _categoriesService.GetSelectList(),
+                Devices = _devicesService.GetSelectList(),
+                CurrentCover = game.Cover
+            };
+
+            return View(viewModel);
+        }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
