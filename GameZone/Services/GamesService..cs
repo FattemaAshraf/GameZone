@@ -119,7 +119,16 @@ namespace GameZone.Services
 
             return isDeleted;
         }
-
+        public IEnumerable<Game> Search(string gameName)
+        {
+                return _context.Games
+                      .Where(g => g.Name.Contains(gameName))
+                      .Include(g => g.Category)
+                      .Include(g => g.Device)
+                      .ThenInclude(d => d.Device)
+                      .AsNoTracking()
+                      .ToList();
+        }
         private async Task<string> SaveCover(IFormFile cover)
         {
             var coverName = $"{Guid.NewGuid()}{Path.GetExtension(cover.FileName)}";
@@ -131,5 +140,7 @@ namespace GameZone.Services
 
             return coverName;
         }
+
+       
     }
 }

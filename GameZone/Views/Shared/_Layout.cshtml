@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -28,8 +29,12 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Games" asp-action="Index">Games</a>
                         </li>
-                        
+                       
                     </ul>
+                    <form class="d-flex" asp-controller="Home" asp-action="Search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit" >Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
