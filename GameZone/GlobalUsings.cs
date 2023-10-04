@@ -1,0 +1,15 @@
+﻿global using GameZone.Models;
+global using Microsoft.EntityFrameworkCore;
+global using System.ComponentModel.DataAnnotations;
+global using Microsoft.AspNetCore.Mvc;
+global using GameZone.Services;
+global using Microsoft.EntityFrameworkCore.Migrations;
+global using GameZone.Data;
+global using Microsoft.EntityFrameworkCore.Infrastructure;
+global using Microsoft.EntityFrameworkCore.Metadata;
+global using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+global using Microsoft.AspNetCore.Mvc.Rendering;
+global using GameZone.Settings;
+global using GameZone.ViewModels;
+global using GameZone.Attributes;
+global using System.Diagnostics;

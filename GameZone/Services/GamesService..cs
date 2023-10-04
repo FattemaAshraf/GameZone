@@ -1,8 +1,4 @@
-﻿using GameZone.Data;
-using GameZone.Models;
-using GameZone.Settings;
-using GameZone.ViewModels;
-using Microsoft.EntityFrameworkCore;
+﻿
 
 namespace GameZone.Services
 {

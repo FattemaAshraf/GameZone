@@ -1,9 +1,4 @@
-﻿using GameZone.Attributes;
-using GameZone.Settings;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using System.ComponentModel.DataAnnotations;
-
-namespace GameZone.ViewModels
+﻿namespace GameZone.ViewModels
 {
     public class CreateGameFormViewModel : GameFormViewModel
     {

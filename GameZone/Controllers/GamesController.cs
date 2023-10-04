@@ -1,9 +1,4 @@
-﻿using GameZone.Data;
-using GameZone.Services;
-using GameZone.ViewModels;
-using Microsoft.AspNetCore.Mvc;
-
-namespace GameZone.Controllers
+﻿namespace GameZone.Controllers
 {
     public class GamesController : Controller
     {

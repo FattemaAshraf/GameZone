@@ -1,7 +1,4 @@
-﻿using GameZone.Data;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-
+﻿
 namespace GameZone.Services
 {
     public class CategoriesService : ICategoriesService

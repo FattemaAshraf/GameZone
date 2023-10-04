@@ -5,8 +5,24 @@
       "PackagePath": "staticwebassets\\GameZone.bundle.scp.css"
     },
     {
+      "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\12362230-3d95-49d0-bde9-a4a3e0e326dd.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\games\\12362230-3d95-49d0-bde9-a4a3e0e326dd.jpg"
+    },
+    {
+      "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\2bd7cf23-bfe0-45b4-a731-605f0100dd7c.png",
+      "PackagePath": "staticwebassets\\assets\\images\\games\\2bd7cf23-bfe0-45b4-a731-605f0100dd7c.png"
+    },
+    {
       "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\777ecbd8-99d2-4443-b5e8-d19d02527d68.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\games\\777ecbd8-99d2-4443-b5e8-d19d02527d68.jpg"
+    },
+    {
+      "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\85203e20-d56c-477c-9394-c17191683e29.png",
+      "PackagePath": "staticwebassets\\assets\\images\\games\\85203e20-d56c-477c-9394-c17191683e29.png"
+    },
+    {
+      "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\90d1ec18-cbbf-4209-a402-476a5a74c921.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\games\\90d1ec18-cbbf-4209-a402-476a5a74c921.jpg"
     },
     {
       "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\a87f2c39-f044-4432-9224-3744b690c868.jpg",
@@ -15,6 +31,10 @@
     {
       "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\b36737d3-b1e3-40f5-bb5c-0ec28ce5014e.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\games\\b36737d3-b1e3-40f5-bb5c-0ec28ce5014e.jpg"
+    },
+    {
+      "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\c198c654-30c3-4bac-a096-efdb9a990da4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\games\\c198c654-30c3-4bac-a096-efdb9a990da4.jpg"
     },
     {
       "Id": "E:\\ITI full stack net\\ASP.NET MVC\\CRUD Operations\\GameZone\\newGameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\c9bd2c52-2889-4d2e-aeb3-e4d30c12d416.jpg",

@@ -1,22 +1,12 @@
-﻿using GameZone.Models;
-using GameZone.Services;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-
-namespace GameZone.Controllers
+﻿namespace GameZone.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ICategoriesService _categoriesService;
-        private readonly IDevicesService _devicesService;
+        
         private readonly IGamesService _gamesService;
 
-        public HomeController(ICategoriesService categoriesService,
-            IDevicesService devicesService,
-            IGamesService gamesService)
+        public HomeController( IGamesService gamesService)
         {
-            _categoriesService = categoriesService;
-            _devicesService = devicesService;
             _gamesService = gamesService;
         }
 

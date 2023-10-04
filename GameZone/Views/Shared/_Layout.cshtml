@@ -32,17 +32,60 @@
                        
                     </ul>
                     <form class="d-flex" asp-controller="Home" asp-action="Search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit" >Search</button>
+                        <input class="form-control me-sm-2" type="search" name="searchString" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
+    <div class="d-flex min-vh-20" lc-helper="background" style="background:url(https://images.unsplash.com/34/ddTzoX58Q153kjaitXl4_ny.jpg?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;h=768&amp;fit=crop&amp;ixid=eyJhcHBfaWQiOjM3ODR9)  center / cover no-repeat; background-color:#444; background-blend-mode: overlay;">
+        <div class="align-self-center text-center text-light col-md-8 offset-md-2">
+            <div class="lc-block ">
+                <div editable="rich">
+                    <h2 class="display-1 fw-bolder">With Love and Respect</h2>
+                </div>
+            </div>
+
+            <div class="lc-block">
+                <div editable="rich">
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus porttitor dui.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+    </div>
+    <div class="d-flex justify-content-center" >
+        <ul class="pagination">
+            <li class="page-item disabled">
+                <a class="page-link" href="#">&laquo;</a>
+            </li>
+            <li class="page-item active">
+                <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">4</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">5</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">&raquo;</a>
+            </li>
+        </ul>
     </div>
 
     <footer class="border-top footer text-muted">

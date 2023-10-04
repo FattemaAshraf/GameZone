@@ -1,7 +1,4 @@
-﻿using GameZone.Models;
-using Microsoft.EntityFrameworkCore;
-
-namespace GameZone.Data
+﻿namespace GameZone.Data
 {
     public class ApplicationDbContext : DbContext
     {
